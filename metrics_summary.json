@@ -1,58 +1,54 @@
 [
   {
     "model": "Rule-Based IDS",
-    "accuracy": 0.7653,
-    "precision": 0.7919,
-    "recall": 0.7653,
-    "f1": 0.748,
+    "accuracy": 0.0662,
+    "precision": 0.0045,
+    "recall": 0.0662,
+    "f1": 0.0084,
     "f1_per_class": {
-      "Normal": 0.8803,
-      "DoS": 0.7704,
-      "Mirai_Botnet": 0.6992,
-      "Port_Scan": 0.6343,
-      "MITM": 0.2094
+      "Normal": 0.0,
+      "DoS": 0.0,
+      "Recon": 0.1238,
+      "BruteForce": 0.6957
     }
   },
   {
     "model": "Decision Tree",
-    "accuracy": 0.976,
-    "precision": 0.9757,
-    "recall": 0.976,
-    "f1": 0.9758,
+    "accuracy": 0.9993,
+    "precision": 0.9996,
+    "recall": 0.9993,
+    "f1": 0.9994,
     "f1_per_class": {
-      "Normal": 0.9734,
-      "DoS": 1.0,
-      "Mirai_Botnet": 1.0,
-      "Port_Scan": 1.0,
-      "MITM": 0.8469
+      "Normal": 0.9981,
+      "DoS": 0.9999,
+      "Recon": 0.9971,
+      "BruteForce": 0.5333
     }
   },
   {
     "model": "Random Forest",
-    "accuracy": 0.9912,
-    "precision": 0.9912,
-    "recall": 0.9912,
-    "f1": 0.9911,
+    "accuracy": 0.9995,
+    "precision": 0.9995,
+    "recall": 0.9995,
+    "f1": 0.9995,
     "f1_per_class": {
-      "Normal": 0.9903,
-      "DoS": 1.0,
-      "Mirai_Botnet": 1.0,
-      "Port_Scan": 1.0,
-      "MITM": 0.943
+      "Normal": 0.9986,
+      "DoS": 0.9999,
+      "Recon": 0.9974,
+      "BruteForce": 0.7778
     }
   },
   {
     "model": "Gradient Boosting",
-    "accuracy": 0.9896,
-    "precision": 0.9895,
-    "recall": 0.9896,
-    "f1": 0.9895,
+    "accuracy": 0.9996,
+    "precision": 0.9996,
+    "recall": 0.9996,
+    "f1": 0.9996,
     "f1_per_class": {
-      "Normal": 0.9885,
+      "Normal": 0.9984,
       "DoS": 1.0,
-      "Mirai_Botnet": 1.0,
-      "Port_Scan": 1.0,
-      "MITM": 0.9336
+      "Recon": 0.9974,
+      "BruteForce": 0.875
     }
   }
 ]
